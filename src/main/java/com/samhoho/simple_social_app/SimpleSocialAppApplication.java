@@ -1,13 +1,10 @@
 package com.samhoho.simple_social_app;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.samhoho.simple_social_app.race_condition.RaceConditionMain;
 
-@SpringBootApplication
 public class SimpleSocialAppApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(SimpleSocialAppApplication.class, args);
-	}
-
+    public static void main(String[] args){
+//        RaceConditionMain.simulate();
+        RaceConditionMain.solve();
+    }
 }
