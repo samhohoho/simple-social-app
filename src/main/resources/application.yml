@@ -13,3 +13,5 @@ spring:
     properties:
       hibernate:
         order_inserts: true
+
+httpBinUrl: http://httpbin.org
